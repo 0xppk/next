@@ -28,7 +28,7 @@ jobs:
 
   build:
     if: ${{ github.ref == 'refs/heads/develop' }}
-    runs-on: [self-hosted,Linux,X64,런너이름]
+    runs-on: [self-hosted,Linux,X64,ip-172-31-41-217]
 
     strategy:
       matrix:
